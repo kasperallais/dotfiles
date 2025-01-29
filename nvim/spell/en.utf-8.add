@@ -203,4 +203,35 @@ CTSS
 IPC
 Microkernel
 Prim's
+<<<<<<< HEAD
 Kruskal's
+=======
+ACL
+ACEs
+GUID
+GPOs
+SPN
+DCs
+KCC
+RODCs
+SYSVOL
+RODC's
+RODC
+GC
+PDC
+FSMO
+userPrincipalName
+sAMAccountName
+DNs
+RDNs
+RDN
+DN
+GUIDs
+PowerShell
+objectGUID
+ObjectGUID
+OUs
+displayName
+LDAP
+hostname
+>>>>>>> refs/remotes/origin/main

@@ -1,4 +1,7 @@
 require("config.lazy")
+require("mason").setup()
+require("mason-lspconfig").setup()
+require("lspconfig").pyright.setup{}
 
 -- set up autocmd for markdown file type to enable spell check
 vim.api.nvim_create_autocmd("FileType", {
@@ -10,4 +13,3 @@ vim.api.nvim_create_autocmd("FileType", {
 
 -- set clipboard to unnamedplus
 vim.opt.clipboard = "unnamedplus"
-
