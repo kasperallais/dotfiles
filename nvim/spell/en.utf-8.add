@@ -203,6 +203,9 @@ CTSS
 IPC
 Microkernel
 Prim's
+<<<<<<< HEAD
+Kruskal's
+=======
 ACL
 ACEs
 GUID
@@ -231,5 +234,13 @@ OUs
 displayName
 LDAP
 hostname
+<<<<<<< HEAD
 arity
 ERDs
+=======
+>>>>>>> refs/remotes/origin/main
+#gianst
+agianst/!
+PCBs
+Fulkerson
+>>>>>>> refs/remotes/origin/main
