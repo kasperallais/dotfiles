@@ -231,3 +231,5 @@ OUs
 displayName
 LDAP
 hostname
+arity
+ERDs
