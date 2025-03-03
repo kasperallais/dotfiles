@@ -11,5 +11,8 @@ vim.api.nvim_create_autocmd("FileType", {
   end,
 })
 
+-- keybinds
+vim.api.nvim_set_keymap("n", "<C-r>", [[:!pdflatex %<CR>]], { noremap = true, silent = true })
+
 -- set clipboard to unnamedplus
 vim.opt.clipboard = "unnamedplus"
