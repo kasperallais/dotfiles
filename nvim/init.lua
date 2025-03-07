@@ -4,6 +4,9 @@ require("mason-lspconfig").setup()
 require("lspconfig").pyright.setup{}
 require("lspconfig").clangd.setup{}
 
+-- color scheme
+vim.cmd[[colorscheme tokyonight-night]]
+
 -- set up autocmd for markdown file type to enable spell check
 vim.api.nvim_create_autocmd("FileType", {
   pattern = { "markdown", "tex" },
