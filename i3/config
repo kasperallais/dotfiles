@@ -17,6 +17,9 @@ font pango:Terminus 8
 # start XDG autostart 
 exec --no-startup-id dex --autostart --environment i3
 
+# start autolock
+exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
+
 # start unclutter
 exec --no-startup-id unclutter --timeout 2
 
