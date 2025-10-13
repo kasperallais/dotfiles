@@ -1,8 +1,9 @@
 require("config.lazy")
 require("mason").setup()
 require("mason-lspconfig").setup()
-require("lspconfig").pyright.setup{}
-require("lspconfig").clangd.setup{}
+
+-- enable LSP
+vim.lsp.enable({ "pyright", "clangd" })
 
 -- color scheme
 vim.cmd[[colorscheme tokyonight-night]]
@@ -15,8 +16,12 @@ vim.api.nvim_create_autocmd("FileType", {
   end,
 })
 
+-- set tabstop to 2 spaces
+vim.opt.tabstop = 2
+vim.opt.shiftwidth = 2
+vim.opt.expandtab = true
+
 -- keybinds
-vim.api.nvim_set_keymap("n", "<C-r>", [[:!pdflatex --shell-escape %<CR>]], { noremap = true, silent = true })
 
 -- set clipboard to unnamedplus
 vim.opt.clipboard = "unnamedplus"
